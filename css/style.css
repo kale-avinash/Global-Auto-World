@@ -1151,6 +1151,21 @@ i.fa.fa-link {
     color: #ffffff;
     font-size: 20px;
 }
+   @media (max-width: 480px) {
+                .contact_info {
+                  flex-direction: column;
+                  align-items: center;
+                }
+            
+                .icon_box {
+                  font-size: 18px;
+                }
+            
+                .contact_info p {
+                  font-size: 14px;
+                }
+              }
+            
 
 /* end of contact*/
 
